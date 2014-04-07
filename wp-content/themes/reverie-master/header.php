@@ -46,21 +46,22 @@
 <header >
 
 	<div class="logo">
-				<img src="<?php echo get_bloginfo('template_directory'); ?>/imgs/logo.png" alt="logo-marion" />
-				<h1>WEB & PHOTOGRAPHIE</h1>
-			</div>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/imgs/logo.png" alt="logo-marion" />
+		<h1>WEB & PHOTOGRAPHIE</h1>
+	</div>
 	<!-- Starting the Top-Bar -->
-	<nav class="top-bar" data-topbar>
+	<!--<nav class="top-bar" data-topbar>
 	    <ul class="title-area">
 	        <li class="name">
 	        	<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 	        </li>
-			<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+			<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone 
 			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
 	    </ul>
-	    <section class="top-bar-section">
+	    <section class="top-bar-section"> -->
 	    <?php
-	        wp_nav_menu( array(
+
+	       /* wp_nav_menu( array(
 	            'theme_location' => 'primary',
 	            'container' => false,
 	            'depth' => 0,
