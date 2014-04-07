@@ -210,12 +210,12 @@ select {
 }
 
 .column,
-.columns {
+.full-width {
   position: relative;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
   width: 100%;
-  float: left;
+  /*float: left;*/
 }
 
 @media only screen {
