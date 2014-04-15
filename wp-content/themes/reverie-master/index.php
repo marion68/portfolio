@@ -9,10 +9,10 @@
 					<h1>MES TRAVAUX<br/> RÉCENTS</h1>
 						<div id="tri">
 							<ul>
-								<li><a href="tout">Tout</a></li>
-								<li><a href="web">Web</a></li>
-								<li><a href="photographie">Photographie</a></li>
-								<li><a href="print">Print</a></li>
+								<li><a href="#">Tout</a></li>
+								<li><a href="#">Web</a></li>
+								<li><a href="#">Photographie</a></li>
+								<li><a href="#">Print</a></li>
 							</ul>
 						</div>
 					<figure class="figure">

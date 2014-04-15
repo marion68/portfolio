@@ -9,7 +9,7 @@
 
 <div class="bgfooter">
 	<!-- <footer class="full-width" role="contentinfo"> -->		
-			<footer id="footer" class="page">
+			<footer id="footer" class="pagecenter">
 				<h1>SUIVEZ-MOI</h1>
 				<a href="#"><img src="<?php echo get_bloginfo('template_directory'); ?>/imgs/flickr.png" alt="logo-flickr" /></a>
 
@@ -37,9 +37,17 @@
 
 <script>
 	(function($) {
-		$(document).foundation();
+		//$(document).foundation();
+		$.localScroll();
+		var container = document.querySelector('#mestravaux');
+	// init
+	var iso = new Isotope( container, {
+	  // options
+	  itemSelector: '.figure'
+});
 	})(jQuery);
 </script>
+
 	
 </body>
 </html>

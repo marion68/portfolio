@@ -579,7 +579,7 @@ body {
 
 }
 header {
-  background-image: url('imgs/marion-2.jpg');
+  background-image: url(imgs/marion-2.jpg);
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;

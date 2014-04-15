@@ -13,12 +13,15 @@
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,100,300,700,300italic' rel='stylesheet' type='text/css'>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/custom.js"></script>
+	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/localscroll/jquery.localscroll.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/localscroll/jquery.scrollTo.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/isotope.pkgd.min.js"></script>
 
 	<!-- Mobile viewport optimized: j.mp/bplateviewport -->
 	<meta name="viewport" content="width=device-width" />
 
 	<!-- Favicon and Feed -->
-	<link rel="shortcut icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
 
 	<!--  iPhone Web App Home Screen Icon -->
@@ -50,9 +53,7 @@
 		<h1>WEB & PHOTOGRAPHIE</h1>
 	</div>
 	<!-- Starting the Top-Bar -->
-<<<<<<< HEAD
-	
-=======
+
 	<!--<nav class="top-bar" data-topbar>
 	    <ul class="title-area">
 	        <li class="name">
@@ -96,13 +97,13 @@
 	    ?>
 	    </section>
 	</nav>
->>>>>>> FETCH_HEAD
+
 	<!-- End of Top-Bar -->
 </header>
 <div id="nav-header">
 	<nav class="nav-header" data-topbar>
-		<div class="page">
-			<a href="index.html"><img src="<?php echo get_bloginfo('template_directory'); ?>/imgs/logo-petit.png" alt="logo" class="logo-nav-header"></a>
+		<div class="pagecenter">
+			<a href="index.php"><img src="<?php echo get_bloginfo('template_directory'); ?>/imgs/logo-petit.png" alt="logo" class="logo-nav-header"></a>
 		    <ul class="title-area">
 		        <li class="name">
 		        	<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
